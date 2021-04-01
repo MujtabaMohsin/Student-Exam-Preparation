@@ -1,0 +1,22 @@
+.child {
+  color: black !important; 
+  flex: 0 0 45% !important;
+  margin: 5px !important;
+  height: 100px !important;
+  text-decoration: none !important;
+}
+
+
+
+.elegent1 {
+  border-radius: 10px !important;
+  /*-webkit-box-shadow: 4px 5px 13px -9px rgba(0,0,0,0.7);*/
+  /*box-shadow: 4px 5px 13px -9px rgba(0,0,0,0.7);*/
+  padding: 1%;
+}
+
+.elegent1:hover {
+  color: rgb(0,0,0) !important;
+  box-shadow: 4px 5px 3px -3px rgba(0,0,0,0.3) !important;
+}
+

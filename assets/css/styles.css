@@ -1,0 +1,443 @@
+	/* ---------- Background Image ------------ */
+
+	body {
+		background-image: url('background.jpg');
+	}
+
+	/* ---------- unknown ------------ */
+
+	div.content {
+		margin-left: 60px;
+		padding: 1px 16px;
+		height: 1000px;
+	}
+
+
+
+
+
+	/* ---------- Course.php ------------ */
+	.container.parent {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+
+	.container a {
+		text-decoration: none;
+	}
+
+	#courseName {
+		background-color: #b2e0ee;
+		margin-top: 2%;
+		margin-left: 2%;
+	}
+
+
+	.elegent {
+		text-align: center;
+		max-width: 191px;
+		min-width: 190px;
+		min-height: 100px;
+		background: #ff793f !important;
+		padding: 1rem 2rem !important;
+		margin: .7rem 1rem;
+		border-radius: 10px;
+		-webkit-box-shadow: 4px 5px 13px -9px rgba(0, 0, 0, 0.7);
+		box-shadow: 4px 5px 13px -9px rgba(0, 0, 0, 0.7);
+		background-color: #b2e0ee;
+	}
+
+	.elegentDep {
+		text-align: center;
+		max-width: 161px;
+		min-width: 160px;
+		min-height: 60px;
+		background: #ff793f !important;
+		padding: 1rem 2rem !important;
+		margin: .7rem 1rem;
+		border-radius: 10px;
+		-webkit-box-shadow: 4px 5px 13px -9px rgba(0, 0, 0, 0.7);
+		box-shadow: 4px 5px 13px -9px rgba(0, 0, 0, 0.7);
+		background-color: #b2e0ee;
+	}
+
+	.elegent h4 {
+		text-align: center;
+		line-height: 1.5;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+
+	.elegent:hover {
+		background-color: #69280bab !important;
+		box-shadow: 4px 5px 13px -3px rgba(0, 0, 0, 0.7);
+
+	}
+
+	.elegentDep:hover {
+		background-color: #69280bab !important;
+		box-shadow: 4px 5px 13px -3px rgba(0, 0, 0, 0.7);
+
+	}
+
+	.elegent h2 {
+		background: none !important;
+		color: white;
+	}
+
+
+
+
+	/* ---------- Course-Homepage.php ------------ */
+
+
+	.list-categories {
+		list-style-type: none;
+		padding: 0px;
+		margin: 0px;
+		max-height: 0px;
+		opacity: 0;
+		overflow: hidden;
+		transition: opacity 300ms ease;
+	}
+
+
+	/* ---------- sc.js ------------ */
+
+	.hidden2 {
+		display: none;
+	}
+
+	.show:hover ul.list-categories {
+		max-height: inherit;
+		opacity: 1;
+	}
+
+	.active2 {
+		display: block;
+	}
+
+	.active3 {
+		display: block;
+	}
+
+	.hidden3 {
+		display: none;
+	}
+
+	/* ---------- header.php ------------ */
+
+	.navbar {
+		background-color: #273c75 !important;
+		height: 90px;
+	}
+
+	.navbar-nav .nav-item .nav-link {
+		margin: 0 14px;
+		font-size: 17px;
+		font-weight: 600;
+		display: flex;
+		flex-direction: column;
+		color: #fff !important;
+	}
+
+	.navbar-nav .nav-item .nav-link:hover {
+		color: #FFC312 !important;
+		text-shadow: 1px 1px 1px black;
+		box-shadow: inset 0px 0px 7px #fff;
+	}
+
+	.navbar-nav .nav-item .nav-link i {
+		font-size: 37px;
+		margin: auto;
+	}
+
+	.dropdown-menu {
+		background-color: #ffffff;
+
+
+	}
+
+
+	/* ---------- Left_List.php ------------ */
+
+	.nav-pills {
+		background: #ff793f;
+		height: 100%;
+		min-height: 100vh;
+		width: 30vh;
+	}
+
+	.nav-pills .nav-link {
+		border-radius: 0 !important;
+		color: #222;
+		font-size: 20px;
+		font-weight: 600;
+		padding: 30px;
+		border-bottom: .5px solid rgba(51, 51, 51, 0.247);
+	}
+
+
+
+	/* ---------- All cards ------------ */
+	/*  ViewQuestionBank.php &  EditQuestionBank */
+	/*  ViewQuizzes.php &  EditMyQuizzes */
+	/*  ViewFlashCards.php &  EditFlashCards */
+
+
+	.question_card {
+		padding: 0 !important;
+
+	}
+
+	.card-body {
+		padding: 0 !important;
+
+	}
+
+	.card-body .card-header {
+		background-color: #ffda79;
+	}
+
+	.special .list-group-flush .list-group-item {
+		font-size: 18px;
+		height: 25vh;
+
+	}
+
+
+	#add_field_button {
+		background-color: #4CAF50;
+		color: #ffffff;
+		border: none;
+		padding: 5px 5px;
+		font-size: 15px;
+		font-family: sans-serif;
+
+	}
+
+
+
+	/* ---------- Inside Tabs in QB , FC , Quizzes ------------ */
+	.nav-tabs .nav-item {
+		background-color: #12a786 !important;
+		width: calc(100% / 3);
+		text-align: left;
+	}
+
+	#quizzes_nav .nav-tabs .nav-item {
+		background-color: #12a786 !important;
+		width: calc(100% / 4);
+		text-align: left;
+	}
+
+
+	.nav-tabs .nav-item .nav-link {
+		font-weight: 500;
+		color: white;
+	}
+
+	.nav-tabs .nav-item .nav-link.active {
+		background-color: #555 !important;
+		color: white;
+	}
+
+
+	#questions_div .question_card {
+		display: inline-block;
+
+		vertical-align: top;
+	}
+
+	#question_card_view {
+		margin: 10px 40px 60px 40px;
+		padding: 15px 15px;
+		text-align: center;
+
+	}
+
+	#question_card_edit {
+		display: inline-block;
+		vertical-align: top;
+		margin: 10px 40px 60px 40px;
+		padding: 1px 1px;
+		text-align: center;
+
+	}
+
+
+
+
+
+	/* ---------- Quizzes ------------ */
+
+
+	#takeQuizInfo {
+		box-sizing: content-box;
+		background-color: #ffffff;
+		margin: 100px auto;
+		font-family: Helvetica;
+		padding: 40px;
+		width: 70%;
+		min-width: 300px;
+	}
+
+	h2 #takeQuizInfo {
+		text-align: center;
+	}
+
+	#StartQuiz {
+		background-color: #ffffff;
+		margin: 80px auto;
+		font-family: sans-serif;
+		padding: 40px;
+		width: 100%;
+		min-width: 300px;
+
+	}
+
+
+	#StartQuiz input[type=text] {
+		padding: 8px;
+		width: 70%;
+		font-size: 14px;
+		font-family: sans-serif;
+		border: 1px solid #aaaaaa;
+	}
+
+
+
+	#StartQuiz select {
+
+		padding: 10px;
+		width: 70%;
+		font-size: 17px;
+	}
+
+	#StartQuiz input[type=radio] {
+		transform: scale(1.5);
+		-moz-transform: scale(1.5);
+		-ms-transform: scale(1.5);
+		-webkit-transform: scale(1.5);
+		-o-transform: scale(1.5);
+	}
+
+
+
+	/* Mark input boxes that gets an error on validation: */
+	input.invalid {
+		background-color: #ffdddd;
+	}
+
+	/* Hide all steps by default: */
+	.tab {
+		display: none;
+	}
+
+	#StartQuiz button {
+		background-color: #4CAF50;
+		color: #ffffff;
+		border: none;
+		padding: 20px 20px;
+		font-size: 17px;
+		font-family: Raleway;
+		cursor: pointer;
+	}
+
+	#StartQuiz button:hover {
+		opacity: 0.8;
+	}
+
+	#prevBtn {
+		background-color: #bbbbbb;
+	}
+
+	/* Make circles that indicate the steps of the form: */
+	.step {
+		height: 15px;
+		width: 15px;
+		margin: 0 2px;
+		background-color: #bbbbbb;
+		border: none;
+		border-radius: 50%;
+		display: inline-block;
+		opacity: 0.5;
+	}
+
+	.step.active {
+		opacity: 1;
+	}
+
+	/* Mark the steps that are finished and valid: */
+	.step.finish {
+		background-color: #4CAF50;
+	}
+
+
+
+
+	/* ---------- Notes.php ------------ */
+
+	.xx {
+		display: flex;
+		flex-direction: row;
+	}
+
+
+
+	/* ---------- FlashCards.php ------------ */
+
+
+	/* Style the tab */
+	.tab_fc {
+		overflow: hidden;
+		border: 1px solid #ccc;
+		background-color: #f1f1f1;
+	}
+
+	/* Style the buttons inside the tab */
+	.tab_fc button {
+		background-color: inherit;
+		float: left;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		padding: 14px 16px;
+		transition: 0.3s;
+		font-size: 17px;
+	}
+
+	/* Change background color of buttons on hover */
+	.tab_fc button:hover {
+		background-color: #ddd;
+	}
+
+	/* Create an active/current tablink class */
+	.tab_fc button.active {
+		background-color: #ccc;
+	}
+
+	/* Style the tab content */
+	.tabcontent_fc {
+		display: none;
+		padding: 6px 12px;
+
+	}
+
+	#title_edit_flash {
+		width: 100%;
+
+	}
+
+	#badge {
+		position: absolute;
+
+		padding: 0.25px 7.5px;
+		border-radius: 50%;
+		background-color: red;
+		color: white;
+	}
+
+	.modal-body {}
