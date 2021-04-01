@@ -1,7 +1,7 @@
 # Student Exam Preparation
 Student Exam Preparation or specificly (KFUPM Exam Prep) is a web-based application that aims to prepare students for exams. 
 The application would help students to get organized and focused, have an interactive preparation, and share many useful resources in order to achieve the best. 
-It was implemented by me and Mr.Abdlrahman Kayat and Mr.Mojtaba Khalifa in Summer 2020.
+It was implemented by me, Mr.Abdlrahman Kayat and Mr.Mojtaba Khalifa in Summer 2020.
 
 ## Project Requirements and Features
 
